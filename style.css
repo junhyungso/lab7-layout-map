@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}    
+h1{
+    color: Coral;
+    font-family: 'TimesNewRoman', 'Times New Roman';
+    
+}
+.buttons {
+    margin: 23px;
+}
+
+.tooltip{
+    display:none;
+    background-color: white;
+    color:rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 5px;
+    border: solid;
+    border-color: coral;
+    position: fixed;
+}

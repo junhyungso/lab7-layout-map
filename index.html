@@ -2,15 +2,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Airport Connections</title>
         
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
     <script src="/script.js" defer type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+
 </head>
 <body>
-    <div class="nodes">
+    <h1>Airport Connections</h1>
+    <div class="buttons">
+        <input type="radio" id="Force" name="type" value="Force" checked>
+        <label for="male">Force</label>
+        <input type="radio" id="Map" name="type" value="Map">
+        <label for="female">Map</label><br>
+        <div class="tooltip"></div>
 
     </div>
+
+
+
+    <div class="chart"></div>
 </body>
 </html>
